@@ -1,0 +1,169 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 900;
+    float:left;
+    font-family: courier;
+    color: #364f6b;
+    text-align: center;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #364f6b;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+.tengah a {
+    color: #364f6b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+.tengah a:hover {
+    text-decoration: none;
+    border-radius: 30%;
+    background: pink;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30%;
+}
+
+.intro img {
+    border-radius: 50%;
+    margin-bottom:  10%;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 80%;
+    }
+    .logo a {
+        display: block;
+        width: 50%;
+        margin-left: 13%;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+}
+
+
+
+.intro .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-left: 10%;
+}
+
+.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+}
