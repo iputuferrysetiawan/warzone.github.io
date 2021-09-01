@@ -96,8 +96,9 @@ section {
     border-radius: 50%;
     margin-bottom:  10%;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 18%;
     text-align: center;
+    position: relative;
 }
 
 .footer {
