@@ -17,7 +17,7 @@ body {
 }
 
 .logo a {
-    font-size: 50px;
+    font-size: 33px;
     font-weight: 900;
     float:left;
     font-family: courier;
@@ -31,11 +31,10 @@ body {
 
 nav {
     width: 100%;
+    height: 20%;
     margin: auto;
     display: flex;
-    line-height: 80px;
     position: sticky;
-    position: -webkit-sticky; 
     top: 0;
     background: #FFFFFF;
     z-index: 1;
@@ -69,12 +68,14 @@ nav ul li a {
 }
 .tengah a:hover {
     text-decoration: none;
-    border-radius: 30%;
-    background: pink;
+    border-radius: 50%;
+    background: #CAB8FF;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    background-color: #5C7AEA;
+    border-radius: 15%;
 }
 
 
@@ -93,11 +94,9 @@ section {
 
 .intro img {
     border-radius: 50%;
-    margin-bottom:  10%;
-    margin-top: 10%;
-    margin-left: 15%;
-    text-align: center;
     display: block;
+    margin: auto;
+   
 }
 
 .footer {
@@ -117,6 +116,9 @@ section {
 }
 
 @media screen and (max-width: 991.98px) {
+    .deskripsi {
+        padding: 0px 50px 0px 50px;
+    }
     .wrapper {
         width: 80%;
     }
@@ -132,7 +134,7 @@ section {
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 60px;
+        line-height: 33px;
         display: block;
     }
 
@@ -142,7 +144,12 @@ section {
     }
 
 }
-
+.deskripsi {
+    margin : auto;
+    text-align: center;
+    display: block;
+    margin-top: 20%;
+}
 
 
 .intro {
@@ -150,16 +157,5 @@ section {
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #364f6b;
-    display: block;
-}
-
-.deskripsi {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #364f6b;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    display: block;
-
+    margin: auto;
 }
